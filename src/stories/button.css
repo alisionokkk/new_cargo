@@ -1,0 +1,38 @@
+.storybook-button {
+  font-weight: 400;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Lato';
+  color: white;
+  text-align: center;
+  padding: 0;
+}
+.storybook-button--addRole {
+  background-color: #1ea7fd;
+}
+.storybook-button--addName {
+  background-color: transparent;
+}
+.storybook-button--small {
+font-size: 18px;
+line-height: 22px;
+width: 200.18px;
+height: 40px
+}
+.storybook-button--medium {
+  width: 300px;
+  height: 59.48px;
+  font-size: 24px;
+  line-height: 29px;
+}
+.storybook-button--B500{
+  background-color:#60C1D4;
+}
+.storybook-button--B800{
+  background-color:#052236;
+}
+.storybook-button--BABABA{
+  background-color:#BABABA;
+}
