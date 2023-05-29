@@ -1,13 +1,19 @@
-import type { Preview } from "@storybook/react";
+import { Preview } from '@storybook/react';
 
 const preview: Preview = {
   parameters: {
-    actions: { argTypesRegex: "^on[A-Z].*" },
-    controls: {
-      matchers: {
-        color: /(background|color)$/i,
-        date: /Date$/,
-      },
+    backgrounds: {
+      default: 'B200',
+      values: [
+        {
+          name: 'B200',
+          value: '#B7D9E4',
+        },
+        {
+          name: 'W100',
+          value: '#ffffff',
+        },
+      ],
     },
   },
 };
