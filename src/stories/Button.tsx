@@ -29,6 +29,8 @@ interface ButtonProps {
    * Optional click handler
    */
   onClick?: () => void;
+
+
 }
 
 /**
@@ -45,7 +47,7 @@ export const Button = ({
   return (
     <button
       type="button"
-      className={['storybook-button', `storybook-button--${size}`,`storybook-button--${backgroundColor}`, mode].join(' ')}
+      className={['storybook-button','storybook-button:hover', `storybook-button--${size}`,`storybook-button--${backgroundColor}`, mode].join(' ')}
       style={{ backgroundColor }}
       {...props}
     >
